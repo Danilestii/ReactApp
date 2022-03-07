@@ -1,0 +1,2 @@
+- sync github with vscode in regards to the Site project
+- check the sync on the Netlify/Github connection via the Netlify site

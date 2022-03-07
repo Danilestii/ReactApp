@@ -1,0 +1,187 @@
+﻿
+body {
+  margin: 0;
+  background-color: coral;
+}
+
+#myCanvas {
+  background-color: #0a0a0a;
+}
+
+#scris {
+border: 2px solid rgb(14, 15, 15);
+margin: 80px; padding: 5px;
+background: rgba(235, 240, 233, 0.5);
+}
+
+#scris:hover {
+  background-color: aqua;
+}
+
+#emoji {
+  text-align: center;
+  font-size: 200%;
+}
+
+#emoji:hover {
+  background-color: #5113e4;
+}
+
+#hoover-test {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+border: 2px solid powderblue;
+margin: 50px; padding: 10px;
+}
+
+a {
+background-color:black;
+background-size: 50px 20px;
+}
+
+ul {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+}
+
+li {
+  float: left; 
+}
+
+li a {
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*ul li:last-child a {
+  border-bottom: none;
+}*/
+
+a.nav:link {
+  text-decoration: none;
+  background:gray;
+}
+
+a.nav:visited {
+  text-decoration: none;
+  background:black;
+}
+
+a.nav:hover {
+  text-decoration: none;
+  background: rgb(240, 7, 27);
+}
+
+a.nav:active {
+  text-decoration: none;
+  background: rgb(241, 241, 239);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+div {
+  display: block;
+  position: relative; 
+  padding: 0;
+  margin: 0;
+}
+
+table {
+width: 100%;
+table-layout: fixed;
+margin-right: auto;
+margin-left: auto;
+}
+
+th {
+  border-radius: 50px;
+  border: 3px dashed black;
+  background-color: chartreuse;
+  font-size: 150%;
+  font-family: cursive;
+  padding: 10px;
+}
+
+td {
+  border-radius: 25px;
+  border-bottom: 2px dotted black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  margin: 1%;
+}
+
+h2 {
+  background-color: darkgray;
+  margin: 0;
+  display: block;
+}
+
+.fas {
+color: yellowgreen
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;  
+  border: crimson solid 1px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
