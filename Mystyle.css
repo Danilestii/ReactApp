@@ -44,16 +44,16 @@ background: rgba(235, 240, 233, 0.5);
   box-sizing: border-box;
 }
 
-.row {
+/*.row {
   margin-left:10px;
   margin-right:10px;
-}
+}*/
 
-.column {
+/*.column {
   float: right;
   width: 50%;
   padding: 5px;
-}
+}*/
 
 .row::after {
   content: "";
@@ -66,10 +66,22 @@ margin: 50px; padding: 10px;
 }
 
 img.iverson {
+  opacity: 1;
+  display: block;
   border: 2px solid rgb(0, 7, 8);
   margin: 50px; padding: 10px;
   border-radius: 50%;
   transform: skewX(-20deg);
+}
+
+img.iverson:hover 
+{
+  opacity: 0.3;
+}
+
+img.iverson:hover .container1
+{
+  opacity: 1;
 }
 
 img.oneal {
