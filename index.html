@@ -26,6 +26,10 @@
 <div>    
 <h2 style="text-align:center;">HTML Images</h2>
 
+<p id="demo">Click button to change me</p>
+
+<button type="button" onclick="myFunction1()">BUTTON</button>
+
 <p id="scris" style="color:rgb(195, 22, 230); font-family:Verdana; font-size:150%; text-align:center;" title="I'm a tooltip"; backgroud-image: url('https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png');>HTML <abbr title="Pictures"> images </abbr> are defined with <sup> the </sup> img tag:</p>
 <hr/>
 <p id="scris" style="color:red; font-family:Verdana; font-size:150%; text-align:center; background-color:black;" title="I'm a tooltip"> <bdo dir="rtl"> HTML </bdo> images are <sub> <abbr title="Also known as..."> defined </abbr> </sub> with the img tag:</p>
@@ -146,12 +150,6 @@
 </div>
 
 <script>
-function myFunction() {
-  window.alert("Want to see some profiles?");
-}
-</script>
-
-<script>
   var c = document.getElementById("myCanvas");
   var ctx = c.getContext("2d");
   ctx.beginPath();
@@ -166,6 +164,8 @@ function myFunction() {
   ctx.lineTo(200, 100);
   ctx.stroke();
   </script>
+
+<script src="myScript.js"></script>
 
 </body>
 </html>
