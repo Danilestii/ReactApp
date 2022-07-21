@@ -1,5 +1,5 @@
 function myFunction1() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
   }
 
 function myFunction() {
